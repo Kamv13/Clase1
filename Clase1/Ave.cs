@@ -27,6 +27,8 @@ namespace Clase1
             Console.WriteLine($"Color :   {Color}");
             Console.WriteLine($"Tamano :  {Tamano} cm");
             Console.WriteLine($"Habitat : {Habitat}");
+            Console.WriteLine($"Familia : {Familia.Nombre}");
+            
         }
     }
 }

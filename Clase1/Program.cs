@@ -12,4 +12,5 @@ ave.Especie = "Amazona Aestiva";
 ave.Color = "Verde";
 ave.Tamano = 30.5;
 ave.Habitat = "bosques tropicales";
+ave.Familia.Nombre = "Psittacidae";
 ave.Imprimir();

@@ -2,7 +2,7 @@
 
 namespace Clase1
 {
-    internal class FamiliaAve
+    public class FamiliaAve
     {
         public string? Nombre { get; set; }
         public string? NumeroEspecie { get; set; }
