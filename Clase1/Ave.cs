@@ -14,6 +14,12 @@ namespace Clase1
 
         public string? Habitat  {  get; set; }
 
+        public FamiliaAve Familia { get; set; }
+
+        public Ave() {
+            Familia = new FamiliaAve();
+        }
+        
         public void Imprimir() {
 
             Console.WriteLine($"Nombre :  {Nombre}");
